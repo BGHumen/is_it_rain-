@@ -1,0 +1,17 @@
+//namespace "IS IT RAIN ???"
+// by  @BGHumen
+#include <iostream>
+using namespace std;
+int main() {
+	setlocale(LC_ALL, "rus");
+	bool rain;
+	cout << "Сейчас идёт дождь ?" << endl;
+	cout << "Введите '1' , если идёт дождь ,'0'- если не идёт!" << endl;
+	cin >> rain;
+	if (rain == true) {
+		cout << "Возьми зонтик !" << endl;
+	}
+	else {
+		cout << "Зонтик не нужен !" << endl;
+	}
+}
